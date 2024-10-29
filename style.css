@@ -495,7 +495,7 @@ h3.my-profession {
 .about .about-content .timeline .timeline-date .fa {
   margin-right: 5px;
   position: relative;
-  top: 10px;
+  top: 0px;
 }
 .about .about-content .timeline .timeline-title {
   font-weight: 700;
