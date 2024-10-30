@@ -7,7 +7,7 @@
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
-  --skin-color: #ff6b81; /* Define the skin color variable */
+  --skin-color: #ff6b81;
 }
 
 * {
@@ -16,6 +16,13 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
+}
+body.dark{
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --text-black-700: #e9e9e9;
 }
 
 body {
@@ -46,7 +53,7 @@ ul {
   padding-left: 15px;
 }
 .section .container {
-  padding-top: 60px;
+  padding-top: 170px;
   padding-bottom: 70px;
 }
 .section-title {
@@ -285,8 +292,8 @@ h3.my-profession {
 }
 
 .home .home-image {
-  flex: 0 0 30%;
-  max-width: 30%;
+  flex: 0 0 40%;
+  max-width: 40%;
   /* max-height: 10%; */
   text-align: center;
   position: relative;
